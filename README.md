@@ -1,1 +1,1 @@
-# sync-party
+# Sync Party
