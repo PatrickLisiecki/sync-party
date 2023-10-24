@@ -2,7 +2,7 @@
 export default function Navbar({ link, handleLinkChange }) {
   return (
     <>
-      <nav className="bg-primary min-h-[80px] w-screen px-14">
+      <nav className="min-h-[80px] w-full bg-primary px-14">
         <div className="flex min-h-[80px] w-full items-center justify-center">
           <form className="flex flex-row gap-x-2">
             <input
@@ -12,11 +12,11 @@ export default function Navbar({ link, handleLinkChange }) {
               placeholder="YouTube Video URL"
               value={link}
               onChange={(e) => handleLinkChange(e.target.value)}
-              className="bg-secondary min-h-[50px] min-w-[300px] border border-blue-200 px-2 py-3 focus:outline-none"
+              className="min-h-[50px] min-w-[300px] border border-blue-200 bg-secondary px-2 py-3 focus:outline-none"
             ></input>
             <button
               type="submit"
-              className="bg-secondary border border-blue-200 px-4 py-3 hover:bg-blue-300"
+              className="border border-blue-200 bg-secondary px-4 py-3 hover:bg-blue-300"
             >
               Submit
             </button>

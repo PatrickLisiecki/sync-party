@@ -1,3 +1,6 @@
+import socketIO from "socket.io-client";
+const socket = socketIO.connect("http://localhost:4000");
+
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import VideoPlayer from "./components/VideoPlayer";
