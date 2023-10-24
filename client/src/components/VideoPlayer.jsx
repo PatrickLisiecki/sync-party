@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function VideoPlayer(videoId) {
   return (
-    <div className="flex min-h-screen w-full items-center justify-center">
+    <div className="flex h-48 min-w-[640px] items-center justify-center bg-blue-200">
       {/* <iframe
         id="ytplayer"
         type="text/html"
